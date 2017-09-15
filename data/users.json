@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "userid": "ungmo2@gmail.com",
+      "password": "1234",
+      "firstname": "Ung-mo",
+      "lastname": "Lee",
+      "editable": false,
+      "status": ""
+    },
+    {
+      "id": 2,
+      "userid": "user@somewhere.com",
+      "password": "ps1000",
+      "firstname": "",
+      "lastname": "",
+      "editable": false,
+      "status": ""
+    },
+    {
+      "id": 7,
+      "userid": "ungmo3@gmail.com",
+      "password": "3000",
+      "firstname": "Ungmo",
+      "lastname": "Lee1",
+      "status": "",
+      "editable": false
+    },
+    {
+      "id": 8,
+      "userid": "test",
+      "password": "110",
+      "firstname": "",
+      "lastname": "",
+      "status": "",
+      "editable": false
+    }
+  ]
+}

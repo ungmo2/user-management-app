@@ -1,0 +1,116 @@
+@import "font-awesome-4.7.0/font-awesome";
+@import "partial/_font";
+@import "partial/_body";
+
+/* index */
+.app-root {
+  padding-top: 50px;
+}
+
+/* signin */
+#signin {
+  .panel-body {
+    padding-top: 30px;
+  }
+  #signin-form {
+    .input-group {
+      margin-bottom: 25px;
+    }
+  }
+  .question {
+    border-top: 1px solid#888;
+    padding-top: 15px;
+    font-size: .85em;
+  }
+}
+
+/* signup */
+#signup {
+  .signin {
+    float: right;
+    font-size: .8em;
+    position: relative;
+    top: -15px;
+  }
+  .panel-body {
+    padding-top: 30px;
+  }
+}
+
+/* user-list */
+.sub-root {
+  padding-top: 50px;
+}
+
+.navbar-brand {
+  padding-top: 5px;
+  img {
+    width: 40px;
+  }
+}
+
+// button 내의 i의 이벤트 발생 방지
+button > i {
+  pointer-events: none;
+}
+
+.table > thead {
+  & > tr > th {
+    height: 51px;
+    vertical-align: middle;
+
+    // #
+    &:first-child {
+      width: 5%;
+      text-align: center;
+    }
+    // userid
+    &:nth-child(2) {
+      width: 30%;
+    }
+    // password
+    &:nth-child(3) {
+      width: 15%;
+    }
+    // first name
+    &:nth-child(4) {
+      width: 15%;
+    }
+    // last name
+    &:nth-child(4) {
+      width: 15%;
+    }
+    // action
+    &:last-child {
+      width: 20%;
+    }
+  }
+}
+
+.table > tbody {
+  & > tr > th,
+  & > tr > td {
+    height: 51px;
+    vertical-align: middle;
+
+    &:first-child {
+      text-align: center;
+    }
+  }
+}
+
+/* 404 */
+.notfound {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background-color: #f1f1f1;
+  padding-top: 100px;
+  text-align: center;
+  color: #fff;
+  font-size: 12em;
+  font-weight: bold;
+  font-family: Helvetica;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+}
